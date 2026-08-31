@@ -32,7 +32,7 @@
         <version>3.5.0</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>saucedemo_login.xml</suiteXmlFile>
+            <suiteXmlFile>saucedemo_all_testcase.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
     </plugin>
