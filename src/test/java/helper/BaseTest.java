@@ -31,7 +31,7 @@ public class BaseTest {
     public void initialize_n_OpenBrowser(Method method) throws IOException {
     	test = extent.createTest(method.getName());
         prop = new Properties();
-        FileInputStream fis = new FileInputStream("C:\\Users\\hp\\Documents\\SELENIUM_WORKSPACE\\Saucedemo_Test\\src\\test\\resources\\config.properties");
+        FileInputStream fis = new FileInputStream("src/test/resources/config.properties");
         prop.load(fis);
         
      // Simple WebDriver setup
