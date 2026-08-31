@@ -17,8 +17,8 @@ public class Saucedemo_all_Testcase extends BaseTest{
     public void login_testcase() throws IOException, InterruptedException 
 	{		
         // 1. Login using Excel Data
-        String user = Excel_Utility.getCellData("C:\\Users\\hp\\Documents\\SELENIUM_WORKSPACE\\Saucedemo_Test\\src\\test\\resources\\Test_data.xlsx", "saucedemo_Login", 1, 0);
-        String pass = Excel_Utility.getCellData("C:\\Users\\hp\\Documents\\SELENIUM_WORKSPACE\\Saucedemo_Test\\src\\test\\resources\\Test_data.xlsx", "saucedemo_Login", 1, 1);
+        String user = Excel_Utility.getCellData("src/test/resources/Test_data.xlsx", "saucedemo_Login", 1, 0);
+        String pass = Excel_Utility.getCellData("src/test/resources/Test_data.xlsx", "saucedemo_Login", 1, 1);
         LoginPage_POM l = new LoginPage_POM(wd);
         HomePage_ProductPage_POM h = new HomePage_ProductPage_POM(wd);
         
@@ -33,8 +33,8 @@ public class Saucedemo_all_Testcase extends BaseTest{
 	public void add_to_cart_testcase() throws IOException, InterruptedException 
 	{		
         // 2. Add Product to Cart
-		String user = Excel_Utility.getCellData("C:\\Users\\hp\\Documents\\SELENIUM_WORKSPACE\\Saucedemo_Test\\src\\test\\resources\\Test_data.xlsx", "saucedemo_Login", 1, 0);
-        String pass = Excel_Utility.getCellData("C:\\Users\\hp\\Documents\\SELENIUM_WORKSPACE\\Saucedemo_Test\\src\\test\\resources\\Test_data.xlsx", "saucedemo_Login", 1, 1);																							
+		String user = Excel_Utility.getCellData("src/test/resources/Test_data.xlsx", "saucedemo_Login", 1, 0);
+        String pass = Excel_Utility.getCellData("src/test/resources/Test_data.xlsx", "saucedemo_Login", 1, 1);																							
 	    LoginPage_POM l = new LoginPage_POM(wd);
 	    HomePage_ProductPage_POM h = new HomePage_ProductPage_POM(wd);
 	        
@@ -57,11 +57,11 @@ public class Saucedemo_all_Testcase extends BaseTest{
 	public void checkout_n_address_testcase() throws IOException, InterruptedException 
 	{
         // 3. Checkout & Address
-		String user = Excel_Utility.getCellData("C:\\Users\\hp\\Documents\\SELENIUM_WORKSPACE\\Saucedemo_Test\\src\\test\\resources\\Test_data.xlsx", "saucedemo_Login", 1, 0);
-        String pass = Excel_Utility.getCellData("C:\\Users\\hp\\Documents\\SELENIUM_WORKSPACE\\Saucedemo_Test\\src\\test\\resources\\Test_data.xlsx", "saucedemo_Login", 1, 1);
-	    String fname = Excel_Utility.getCellData("C:\\Users\\hp\\Documents\\SELENIUM_WORKSPACE\\Saucedemo_Test\\src\\test\\resources\\Test_data.xlsx", "saucedemo_address", 1, 2);
-	    String lname = Excel_Utility.getCellData("C:\\Users\\hp\\Documents\\SELENIUM_WORKSPACE\\Saucedemo_Test\\src\\test\\resources\\Test_data.xlsx", "saucedemo_address", 1, 3);
-	    String zip = Excel_Utility.getCellData("C:\\Users\\hp\\Documents\\SELENIUM_WORKSPACE\\Saucedemo_Test\\src\\test\\resources\\Test_data.xlsx", "saucedemo_address", 1, 4);
+		String user = Excel_Utility.getCellData("src/test/resources/Test_data.xlsx", "saucedemo_Login", 1, 0);
+        String pass = Excel_Utility.getCellData("src/test/resources/Test_data.xlsx", "saucedemo_Login", 1, 1);
+	    String fname = Excel_Utility.getCellData("src/test/resources/Test_data.xlsx", "saucedemo_address", 1, 2);
+	    String lname = Excel_Utility.getCellData("src/test/resources/Test_data.xlsx", "saucedemo_address", 1, 3);
+	    String zip = Excel_Utility.getCellData("src/test/resources/Test_data.xlsx", "saucedemo_address", 1, 4);
 	    
 	    LoginPage_POM l = new LoginPage_POM(wd);
 	    HomePage_ProductPage_POM h = new HomePage_ProductPage_POM(wd);
