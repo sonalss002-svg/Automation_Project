@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-10T09:46:35 IST" name="Default suite" finished-at="2026-02-10T09:47:54 IST" duration-ms="78168">
+    <groups>
+    </groups>
+    <test started-at="2026-02-10T09:46:35 IST" name="Default test" finished-at="2026-02-10T09:47:54 IST" duration-ms="78168">
+      <class name="testcases.Saucedemo_all_Testcase">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:testcases.Saucedemo_all_Testcase@274872f8]" started-at="2026-02-10T09:46:35 IST" name="setupReport" finished-at="2026-02-10T09:46:35 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="initialize_n_OpenBrowser(java.lang.reflect.Method)[pri:0, instance:testcases.Saucedemo_all_Testcase@274872f8]" started-at="2026-02-10T09:46:35 IST" name="initialize_n_OpenBrowser" finished-at="2026-02-10T09:46:45 IST" duration-ms="9872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.Saucedemo_all_Testcase.login_testcase() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize_n_OpenBrowser -->
+        <test-method signature="login_testcase()[pri:0, instance:testcases.Saucedemo_all_Testcase@274872f8]" started-at="2026-02-10T09:46:46 IST" name="login_testcase" finished-at="2026-02-10T09:46:58 IST" duration-ms="11601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_testcase -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.Saucedemo_all_Testcase@274872f8]" started-at="2026-02-10T09:46:58 IST" name="closeBrowser" finished-at="2026-02-10T09:47:00 IST" duration-ms="1716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialize_n_OpenBrowser(java.lang.reflect.Method)[pri:0, instance:testcases.Saucedemo_all_Testcase@274872f8]" started-at="2026-02-10T09:47:00 IST" name="initialize_n_OpenBrowser" finished-at="2026-02-10T09:47:07 IST" duration-ms="6826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.Saucedemo_all_Testcase.add_to_cart_testcase() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize_n_OpenBrowser -->
+        <test-method signature="add_to_cart_testcase()[pri:2, instance:testcases.Saucedemo_all_Testcase@274872f8]" started-at="2026-02-10T09:47:07 IST" name="add_to_cart_testcase" finished-at="2026-02-10T09:47:18 IST" duration-ms="11615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_to_cart_testcase -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.Saucedemo_all_Testcase@274872f8]" started-at="2026-02-10T09:47:18 IST" name="closeBrowser" finished-at="2026-02-10T09:47:20 IST" duration-ms="1942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialize_n_OpenBrowser(java.lang.reflect.Method)[pri:0, instance:testcases.Saucedemo_all_Testcase@274872f8]" started-at="2026-02-10T09:47:20 IST" name="initialize_n_OpenBrowser" finished-at="2026-02-10T09:47:27 IST" duration-ms="6603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.Saucedemo_all_Testcase.checkout_n_address_testcase() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize_n_OpenBrowser -->
+        <test-method signature="checkout_n_address_testcase()[pri:3, instance:testcases.Saucedemo_all_Testcase@274872f8]" started-at="2026-02-10T09:47:27 IST" name="checkout_n_address_testcase" finished-at="2026-02-10T09:47:52 IST" duration-ms="24909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout_n_address_testcase -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.Saucedemo_all_Testcase@274872f8]" started-at="2026-02-10T09:47:52 IST" name="closeBrowser" finished-at="2026-02-10T09:47:54 IST" duration-ms="1782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:testcases.Saucedemo_all_Testcase@274872f8]" started-at="2026-02-10T09:47:54 IST" name="flushReport" finished-at="2026-02-10T09:47:54 IST" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- testcases.Saucedemo_all_Testcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
